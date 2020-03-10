@@ -1103,7 +1103,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Below is the interactive <b>Web of Interconnectivity</b> for the Masters' <em>Spoon River Anthology</em>.</p>
+        <p>Below is the interactive <b>Web of Interconnectivity</b> for Edgar Lee Masters' <em>Spoon River Anthology</em>.</p>
         <a
           className="App-link"
           href="https://spoonriver.netlify.com"
