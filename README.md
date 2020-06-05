@@ -1,3 +1,22 @@
+<p align="center">
+  <a href="https://spoonriver.netlify.app">
+    <img alt="Gatsby" src="https://spoonriver-web.netlify.app/static/media/logo.2f49b862.svg" height="80" />
+  </a>
+</p>
+<h1 align="center">
+  Spoon River Anthology: Web of Interconnectivity
+</h1>
+
+This repository houses the source code and data for the *Spoon River Anthology Web of Interconnectivity* project. This site provides a graphical, interactive interface to view and analyze the anthology's 200+ character connections. It can be viewed live [here](https://spoonriver-web.netlify.app).
+
+For the main *Spoon River Anthology* site, see the [repository](https://github.com/j-651/spoonriver) or the [live site](https://spoonriver.netlify.app).
+
+Original source code by <a href="https://jaysella.dev" target="_blank">Jay Sella</a>.
+
+Original data + information created + curated by Nick Casertano, Oscar Lloyd, and Jay Sella.
+
+----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
