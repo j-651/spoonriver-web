@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.sass';
 
 import ForceGraph2D from 'react-force-graph-2d'
 
@@ -10,16 +10,36 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="App-logo" alt="Logo" />
         <p>Below is the interactive <b>Web of Interconnectivity</b> for Edgar Lee Masters' <em>Spoon River Anthology</em>.</p>
-        <a
-          className="App-link"
-          href="https://spoonriver.netlify.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Back to main site &rarr;
-        </a>
+
+        <div className="links">
+          <a
+            href="//spoonriver.netlify.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Back to main site &rarr;
+          </a> &nbsp; | &nbsp; <a
+            href="//github.com/j-651/spoonriver-web"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View/Contribute on GitHub &rarr;
+          </a>
+        </div>
+
+        <footer>
+          <p>
+            An English literature project.
+            <br/>
+            &copy; 2020 Jay Sella, Oscar Lloyd, and Nick Casertano. All RIghts Reserved.
+            <br/>
+            Made with punctiliousness in the Washington, D.C. area.
+            <br/>
+            Website built by <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a>
+          </p>
+        </footer>
       </header>
 
       <main className="App-main">
