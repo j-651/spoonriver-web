@@ -4,7 +4,7 @@ import './App.sass';
 
 import ForceGraph2D from 'react-force-graph-2d'
 
-import data from './assets/data.json'
+import data from './assets/currentData.json'
 
 function App() {
   return (
