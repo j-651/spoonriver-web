@@ -15,6 +15,12 @@ Original source code by <a href="https://jaysella.dev" target="_blank">Jay Sella
 
 Original data + information created + curated by Nick Casertano, Oscar Lloyd, and Jay Sella.
 
+---
+
+## How to Contribute
+
+For information on how to contribute to this project, see our [Contributing Guidelines](/CONTRIBUTING.md)
+
 ----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
