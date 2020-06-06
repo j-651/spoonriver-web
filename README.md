@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://spoonriver.netlify.app">
-    <img alt="Gatsby" src="https://spoonriver-web.netlify.app/static/media/logo.2f49b862.svg" height="80" />
+  <a href="https://spoonriver-web.netlify.app">
+    <img alt="Gatsby" src="src/assets/images/logo.svg" height="80" />
   </a>
 </p>
 <h1 align="center">
@@ -17,9 +17,9 @@ Original data + information created + curated by Nick Casertano, Oscar Lloyd, an
 
 ---
 
-## How to Contribute
+## 💡 How to Contribute
 
-For information on how to contribute to this project, see our [Contributing Guidelines](/CONTRIBUTING.md)
+For information on how to contribute to this project, see our [Contributing Guidelines](CONTRIBUTING.md)
 
 ----
 

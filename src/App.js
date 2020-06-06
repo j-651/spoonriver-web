@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './assets/images/logo.svg';
 import './App.sass';
 
 import ForceGraph2D from 'react-force-graph-2d'
 
-import data from './assets/currentData.json'
+import data from './assets/data/currentData.json'
 
 function App() {
   return (
