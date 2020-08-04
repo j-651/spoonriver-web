@@ -2,16 +2,19 @@ import React from 'react';
 import logo from './assets/images/logo.svg';
 import './App.sass';
 
-import ForceGraph2D from 'react-force-graph-2d'
+import ForceGraph2D from 'react-force-graph-2d';
 
-import data from './assets/data/currentData.json'
+import data from './assets/data/currentData.json';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="Logo" />
-        <p>Below is the interactive <b>Web of Interconnectivity</b> for Edgar Lee Masters' <em>Spoon River Anthology</em>.</p>
+        <p>
+          Below is the interactive <b>Web of Interconnectivity</b> for Edgar Lee
+          Masters&apos; <em>Spoon River Anthology</em>.
+        </p>
 
         <div className="links">
           <a
@@ -20,7 +23,9 @@ function App() {
             rel="noopener noreferrer"
           >
             Back to main site &rarr;
-          </a> &nbsp; | &nbsp; <a
+          </a>{' '}
+          &nbsp; | &nbsp;{' '}
+          <a
             href="//github.com/j-651/spoonriver-web"
             target="_blank"
             rel="noopener noreferrer"
@@ -32,12 +37,16 @@ function App() {
         <footer>
           <p>
             An English literature project.
-            <br/>
-            &copy; 2020 Jay Sella, Oscar Lloyd, and Nick Casertano. All RIghts Reserved.
-            <br/>
+            <br />
+            &copy; 2020 Jay Sella, Oscar Lloyd, and Nick Casertano. All RIghts
+            Reserved.
+            <br />
             Made with punctiliousness in the Washington, D.C. area.
-            <br/>
-            Website built by <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">Jay Sella</a>
+            <br />
+            Website built by{' '}
+            <a href="//jaysella.dev" target="_blank" rel="noopener noreferrer">
+              Jay Sella
+            </a>
           </p>
         </footer>
       </header>
@@ -52,10 +61,16 @@ function App() {
             const fontSize = 16 / globalScale;
             ctx.font = `${fontSize}px Sans-Serif`;
             const textWidth = ctx.measureText(label).width;
-            const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2); // some padding
+            const bckgDimensions = [textWidth, fontSize].map(
+              (n) => n + fontSize * 0.2
+            ); // some padding
 
             ctx.fillStyle = 'rgba(7, 60, 83, .05)';
-            ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+            ctx.fillRect(
+              node.x - bckgDimensions[0] / 2,
+              node.y - bckgDimensions[1] / 2,
+              ...bckgDimensions
+            );
 
             ctx.textAlign = 'center';
             ctx.textBaseline = 'middle';
