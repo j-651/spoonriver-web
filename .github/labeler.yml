@@ -7,6 +7,11 @@ static:
   - public/*
   - src/assets/images
 
+# Add 'style' label to any change within a style file in the 'src' folder
+style:
+  - src/**/*.sass
+  - src/**/*.css
+
 # Add 'data' label to any change within the 'src/assets' folder
 data:
   - src/assets/*
