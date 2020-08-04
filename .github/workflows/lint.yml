@@ -26,5 +26,6 @@ jobs:
           github_token: ${{ secrets.github_token }}
           # Enable linters
           eslint: true
+          eslint_args: ./src/**/*.{js,jsx}
           prettier: true
-          prettier_args: .
+          prettier_args: --write **/*.{js,json,md}
