@@ -1,7 +1,21 @@
 {
   "name": "spoonriver-web",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.1.0",
+  "description": "Home for Spoon River Web of Interconnectivity",
+  "contributors": [
+    {
+      "name": "Jay Sella",
+      "email": "jay@jaysella.dev",
+      "url": "https://jaysella.com"
+    },
+    {
+      "name": "Oscar Lloyd"
+    },
+    {
+      "name": "Nick Casertano"
+    }
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.2.0",
@@ -12,6 +26,7 @@
     "react-force-graph-2d": "^1.13.8",
     "react-scripts": "^3.4.1"
   },
+  "license": "See license in LICENSE",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -32,5 +47,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/j-651/spoonriver-web"
+  },
+  "bugs": {
+    "url": "https://github.com/j-651/spoonriver-web/issues"
   }
 }
