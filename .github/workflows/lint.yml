@@ -1,4 +1,5 @@
 name: Lint
+
 on: push
 
 jobs:
@@ -27,5 +28,4 @@ jobs:
           # Enable linters
           eslint: true
           prettier: true
-          auto_fix: true
-          commit_message: "ci: fix code style issues with ${linter}"
+          prettier_args: .
