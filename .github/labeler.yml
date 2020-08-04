@@ -1,0 +1,16 @@
+# Add 'repo' label to any root file changes
+repo:
+  - ./*
+
+# Add 'static' label to any change within the 'public' and 'src/assets/images' folders
+static:
+  - public/*
+  - src/assets/images
+
+# Add 'data' label to any change within the 'src/assets' folder
+data:
+  - src/assets/*
+
+# Add 'source' label to any change to src files within 'src' EXCEPT for the 'assets' sub-folder
+source:
+  - any: ['src/**/*', '!src/assets/*']
