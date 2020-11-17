@@ -20,7 +20,6 @@
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^11.0.4",
     "@testing-library/user-event": "^12.0.11",
-    "node-sass": "^4.14.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-force-graph-2d": "^1.13.8",
@@ -35,7 +34,8 @@
     "eslint-plugin-react": "^7.20.5",
     "husky": "^4.2.5",
     "lint-staged": "^10.2.11",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "sass": "^1.29.0"
   },
   "license": "See license in LICENSE",
   "scripts": {
